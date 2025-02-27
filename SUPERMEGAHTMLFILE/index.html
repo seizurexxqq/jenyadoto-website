@@ -1,0 +1,330 @@
+<!--
+мета-теги:
+<meta charset="utf-8"> - поделючение кодировки
+<meta name="author" content="author name"> - автор
+<meta name="description" content="description"> - описание страницы
+<meta name="keywords" content="keywords"> - ключевые слова
+<title>Заголовок страницы</title> - заголовок страницы
+
+теги: 
+h1-h6 - заголовки
+p - параграф
+b, strong - жирный текст
+i, em - курсив
+big - увеличенный текст
+small - уменьшенный текст
+del, strike - зачеркнутый текст
+sub - нижний ряд
+sup - верхний ряд
+br - перенос строки
+hr - горизонтальная линия
+abbr - аббревиатура
+address - адрес
+pre - сохраняет форматирование текста
+code - сохраняет форматирование текста, используеться для кода
+ol - нумерованный список
+        li - элемент списка
+ul - не нумерованный список
+        li - элемент списка
+a - ссылка
+        href=" " - адрес ссылки
+        target=" " - открытие ссылки в новом окне
+        title=" " - подсказка
+img - изображение
+        src=" " - путь к изображению
+        alt=" " - текст при недоступности изображения
+        width=" " - ширина изображения
+        height=" " - высота изображения
+table - таблица
+    <thead> - шапка таблицы
+    <tbody> - тело таблицы
+    <tfoot> - подвал таблицы
+        tr - строка таблицы
+            th - ячейка заголовка
+            td - ячейка таблицы
+        border=" " - толщина границы
+        width=" " - ширина таблицы
+        align=" " - выравнивание таблицы
+link - подключение внешних таблиц стилей
+        href=" " - путь к таблице стилей
+        rel=" " - отношение между текущим документом и подключаемым файлом
+script - подключение скриптов
+        src=" " - путь к скрипту
+form - форма
+        action=" " - адрес обработчика формы
+        method=" " - метод отправки данных
+        name=" " - имя формы
+        id=" " - идентификатор формы
+label - подпись к элементу формы
+        for=" " - связь с элементом формы
+input - элемент формы
+        type=" " - тип элемента
+        name=" " - имя элемента
+        value=" " - значение элемента
+        checked - выбранный элемент
+        disabled - заблокированный элемент
+        readonly - только для чтения
+        size=" " - размер поля
+        maxlength=" " - максимальное количество символов
+        placeholder=" " - подсказка
+        required - обязательное поле
+        autofocus - автофокус
+        id=" " - идентификатор элемента
+textarea - многострочное текстовое поле
+        name=" " - имя элемента
+        rows=" " - количество строк
+        cols=" " - количество столбцов
+        placeholder=" " - подсказка
+        required - обязательное поле
+        autofocus - автофокус
+        id=" " - идентификатор элемента
+button - кнопка
+        type=" " - тип кнопки
+        name=" " - имя элемента
+        value=" " - значение элемента
+        disabled - заблокированный элемент
+        autofocus - автофокус
+        id=" " - идентификатор элемента
+select - выпадающий список
+        name=" " - имя элемента
+        id=" " - идентификатор элемента
+        multiple - множественный выбор
+        size=" " - количество отображаемых строк
+        disabled - заблокированный элемент
+        required - обязательное поле
+        autofocus - автофокус
+        option - элемент списка
+        selected - выбранный элемент
+
+        
+    
+атрибуты:
+        title=" " - подсказка
+        start=" " - начальное значение нумерации
+        type=" " - тип нумерации
+        lang=" " - язык
+
+
+
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Ростик ПРО">
+        <meta name="description" content="ЕБАНУТОЕ ОПИСАНИЕ СТРАНИЦЫ(ЖЕСТОЧАЙШЕЕ)">
+        <meta name="keywords" content="АХУЕННЫЙ ПИЗДАТЫЙ РОСТИК">
+        <title>Сайт ЖениДото!</title>
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+
+
+
+    <body>
+        <h1>Добро пожаловать на сайт жени дото!</h1>
+        <img src="images/jenekdoto1.jpg" alt="БОГ" width="300" title="хехе))))">
+        <img src="images/jenekdoto2.jpg" alt="БОГ" width="300" title="хехе))))">
+        <img src="images/jenekdoto3.jpg" alt="БОГ" width="300" title="хехе))))">
+        <h2>Женя дото:</h2>
+        <ol>
+            <li>Легенда</li>
+            <li>Бог</li>
+            <li>Красавчик</li>
+            <li>Молодец</li>
+            <li>Крутой</li>
+            <li>Амбассадор Биг-мака</li>
+            <li>Создатель сваги</li>
+        </ol>
+        <h2>Габен:</h2>
+        <ul>
+            <li>Хуесос</li>
+            <li>Жирный пидор</li>
+            <li>Толстый</li>
+        </ul>
+
+
+        <h1>НАКОРМИТЕ ЖЕНЮ ДОТО!</h1>
+
+        <form action="" method="post">
+            <h2>Ваши данные.</h2>
+            <label>Ваше имя: </label>
+            <input type="text" name="name" placeholder="нейм" id="name"><br><br>
+            <label>Ваша почта: </label>
+            <input type="email" name="email" placeholder="имайл" id="email"><br><br>
+            <label>Придумайте пароль: </label>
+            <input type="password" name="password" placeholder="пассворд" id="password" minlength="8"><br><br>
+            <label>Подтвердите пароль:</label>
+            <input type="password" name="password1" placeholder="пассворд" id="password1" minlength="8"><br><br>
+            <label>Ваш пол: мужской</label>
+            <input type="radio" name="state" id="state">
+            <label>женский</label>
+            <input type="radio" name="state" id="state"><br><br>
+            <p><big><b>Согласны ли вы с тем что в случае если женек будет недоволен вы будете публично расстреляны?</b></big></p><br>
+            <label>Согласен.</label>
+            <input type="checkbox" name="agree" id="agree"><br><br>
+        </form>
+
+
+
+        <table border="2" width="1400">
+            <thead>
+                <tr>
+                    <th>Легенда:</th>
+                    <th>Где нравится есть:</th>
+                    <th>Где не нравится есть?</th>
+                    <th>Что нравится есть:</th>
+                    <th>Что не нравится есть:</th>
+                    <th>Что нравится пить?</th>
+                    <th>Что не нравится пить?</th>
+                    <th>Любит на десерт:</th>
+                    <th>Не любит на десерт:</th>
+                </tr>
+
+            </thead>
+
+
+            <tbody align="center">
+                <tr>
+                    <td>Женя дото.</td>
+                    <td>В Маке.</td>
+                    <td>В столовой.</td>
+                    <td>Биг-Мак.</td>
+                    <td>Салат.</td>
+                    <td>Кола.</td>
+                    <td>Чай.</td>
+                    <td>Мороженое.</td>
+                    <td>Фрукты.</td>
+
+                </tr>
+
+                <tr>
+                    <td>Женёк.</td>
+                    <td>В КФС.</td>
+                    <td>В лесу.</td>
+                    <td>Крилички.</td>
+                    <td>Шишки.</td>
+                    <td>Пепси.</td>
+                    <td>Кофе.</td>
+                    <td>Пирог.</td>
+                    <td>Каша.</td>
+
+                </tr>
+
+                <tr>
+                    <td>Лысый толстый Женька.</td>
+                    <td>В БУргер Кинг.</td>
+                    <td>В туалете.</td>
+                    <td>Вопер.</td>
+                    <td>Гречку.</td>
+                    <td>Фанта.</td>
+                    <td>Вода.</td>
+                    <td>Торт.</td>
+                    <td>Кефир.</td>
+                    
+
+                </tr>
+                
+
+            </tbody>
+
+
+            <tfoot width="600">
+                <tr>
+                    <th>Женек легенда.</th>
+                    <th>Женёк: доволен, свага: имеется.</th>
+                    <th>Женёк: не доволен, свага: нет.</th>
+                    <th>Женёк: доволен, свага: имеется.</th>
+                    <th>Женёк: не доволен, свага: нет.</th>
+                    <th>Женёк: доволен, свага: имеется.</th>
+                    <th>Женёк: не доволен, свага: нет.</th>
+                    <th>Женёк: доволен, свага: имеется.</th>
+                    <th>Женёк: не доволен, свага: нет.</th>
+                </tr>
+
+            </tfoot>
+
+
+        </table>
+        <form action="" method="post">
+            <h2>Чем вы будете кормить <big><b>Женька?</b></big></h2>
+            <h4>Вы также можете выбрать из предложенных вариантов</h4>
+            <Label>Заведение:</Label>
+            <input type="text" name="place" placeholder="заведение" id="place">
+            <select>
+                <option disabled selected>Выберите заведение</option>
+                <option>Макдональдс</option>
+                <option>КФС</option>
+                <option>Бургер Кинг</option>
+                <option>Лес</option>
+                <option>Столовая</option>
+                <option>Туалет</option>
+            </select><br><br>
+            <label>Блюдо:</label>
+            <input type="text" name="food" placeholder="блюдо" id="food">
+            <select>
+                <option disabled selected>Выберите блюдо</option>
+                <option>Биг-Мак</option>
+                <option>Вопер</option>
+                <option>Крилички</option>
+                <option>Салат</option>
+                <option>Шишки</option>
+                <option>Гречка</option>
+            </select><br><br>
+            <label>Напиток:</label>
+            <input type="text" name="drink" placeholder="напиток" id="drink">
+            <select>
+                <option disabled selected>Выберите напиток</option>
+                <option>Кола</option>
+                <option>Пепси</option>
+                <option>Фанта</option>
+                <option>Чай</option>
+                <option>Кофе</option>
+                <option>Вода</option>
+            </select><br><br>
+            <label>Десерт:</label>
+            <input type="text" name="desert" placeholder="десерт" id="desert">
+            <select>
+                <option disabled selected>Выберите десерт</option>
+                <option>Мороженое</option>
+                <option>Пирог</option>
+                <option>Торт</option>
+                <option>Фрукты</option>
+                <option>Каша</option>
+                <option>Кефир</option>
+            </select><br><br>
+            <h3>Надейтесь что Женьку понравится...</h3> 
+            <h3>ВНИМАТЕЛЬНО проверьте все ответы перед отправкой!</h3> 
+            <label>Отправить:</label>
+            <input type="submit" name="submit" value="Отправить" id="submit">
+            <label>Сбросить все.</label>  
+            <button type="reset" name="reset" id="reset">Сбросить</button><br><br>
+            <label>Сосал?</label>
+            <input type="text" name="suck" placeholder="да/нет" value="Да" id="suck" readonly><br><br>
+        </form>
+
+        <h2>Cпасибо за участие!</h2><br><br>
+        <form>
+            <label>Оставить комментарий.</label>
+            <textarea name="comment" placeholder="комментарий" id="comment" maxlength="150"></textarea><br><br>
+            <button type="submit" name="send" id="send">Отправить комментарий.</button>
+            <label>Стереть комментарий.</label>  
+            <button type="reset" name="reset" id="reset">Стереть</button><br><br>
+
+        </form>
+        <h4>Если Женек останется недоволен мы вас найдем)</h3>
+
+
+        
+
+    
+
+    </body>
+</html>
+
