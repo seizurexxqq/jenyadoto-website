@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cайт Жени Дото</title>
+</head>
+<body>
+    <img src="images/jenekdoto1.jpg" alt="БОГ" width="300" title="хехе))))">
+    <img src="images/jenekdoto2.jpg" alt="БОГ" width="300" title="хехе))))">
+    <img src="images/jenekdoto3.jpg" alt="БОГ" width="300" title="хехе))))">
+    <h2>Спасибо за оставленный комментарий!</h2>
+    
+    <button type="button" onclick="returnToMainPage()">Вернуться на главную</button>
+
+    <script>
+        function returnToMainPage() {
+            // Очищаем комментарий в sessionStorage перед возвратом
+            sessionStorage.removeItem("comment");
+            
+            // Переходим на страницу about.html
+            window.location.href = "about.html";
+        }
+    </script>
+
+    
+</body>
+</html>
